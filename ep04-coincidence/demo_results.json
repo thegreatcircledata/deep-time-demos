@@ -1,0 +1,82 @@
+{
+ "analytic_check": {
+  "expected_lines_4plus": 577.3,
+  "expected_lines_5plus": 39.9,
+  "expected_lines_6plus": 2.26
+ },
+ "demo_a_first_map": {
+  "lines_through_at_least_3_sites": 6071,
+  "lines_through_at_least_4_sites": 486,
+  "lines_through_at_least_5_sites": 28,
+  "lines_through_at_least_6_sites": 0,
+  "lines_through_at_least_7_sites": 0
+ },
+ "demo_b_baseline_over_maps": {
+  "lines_through_at_least_3_sites": {
+   "maps_with_at_least_one": 1000,
+   "max": 7072,
+   "mean": 6355.34,
+   "median": 6349.0,
+   "min": 5875,
+   "p05": 6091.0,
+   "p95": 6641.0
+  },
+  "lines_through_at_least_4_sites": {
+   "maps_with_at_least_one": 1000,
+   "max": 744,
+   "mean": 574.64,
+   "median": 571.0,
+   "min": 444,
+   "p05": 504.0,
+   "p95": 651.0
+  },
+  "lines_through_at_least_5_sites": {
+   "maps_with_at_least_one": 1000,
+   "max": 74,
+   "mean": 39.83,
+   "median": 39.0,
+   "min": 14,
+   "p05": 27.0,
+   "p95": 55.0
+  },
+  "lines_through_at_least_6_sites": {
+   "maps_with_at_least_one": 859,
+   "max": 12,
+   "mean": 2.17,
+   "median": 2.0,
+   "min": 0,
+   "p05": 0.0,
+   "p95": 5.0
+  },
+  "lines_through_at_least_7_sites": {
+   "maps_with_at_least_one": 96,
+   "max": 3,
+   "mean": 0.11,
+   "median": 0.0,
+   "min": 0,
+   "p05": 0.0,
+   "p95": 1.0
+  }
+ },
+ "demo_c_how_many_tries": {
+  "alpha": 0.05,
+  "n_studies": 10000,
+  "share_of_single_tests_significant": 0.0502,
+  "share_of_studies_with_at_least_one_significant": 0.642,
+  "tests_per_study": 20,
+  "textbook_value_1_minus_0.95_pow_20": 0.6415
+ },
+ "note": "Demonstration simulations for ep04 (directive S8). Not research claims; label on screen as a demonstration.",
+ "numpy": "2.5.3",
+ "params": {
+  "end_point_pairs_per_map": 44850,
+  "line_definition": "straight line between two dots (its end points) passing within tolerance_m of at least k-2 other dots that lie between those ends",
+  "map_side_m": 100000.0,
+  "n_maps": 1000,
+  "n_sites": 300,
+  "strip_width_m": 100.0,
+  "tolerance_m": 50.0
+ },
+ "seed": 20261003,
+ "type": "illustration"
+}
